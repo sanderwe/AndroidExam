@@ -8,7 +8,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/SelectButton"
         android:layout_width="110dp"
         android:layout_height="100dp"
         android:layout_marginBottom="24dp"
@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.091" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/savedButton"
         android:layout_width="110dp"
         android:layout_height="100dp"
         android:layout_marginStart="12dp"

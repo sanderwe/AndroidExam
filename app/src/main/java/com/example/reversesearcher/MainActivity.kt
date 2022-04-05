@@ -14,7 +14,14 @@ class MainActivity : AppCompatActivity() {
 
         val resultsButton = findViewById<Button>(R.id.resultsButton)
         resultsButton.setOnClickListener{
-            val intent = Intent(this, ResultsActivity)
+            val intent = Intent(this, ResultsActivity::class.java)
+            startActivity(intent)
+        }
+
+        val savedButton = findViewById<Button>(R.id.savedButton)
+        savedButton.setOnClickListener{
+            val intent = Intent(this, SavedActivity::class.java)
+            startActivity(intent)
         }
     }
 }
