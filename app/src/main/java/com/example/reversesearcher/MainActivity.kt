@@ -12,13 +12,18 @@ class MainActivity : AppCompatActivity() {
     private lateinit var selectButton: Button
     private lateinit var imageView: ImageView
 
+
     companion object {
         val IMAGE_REQUEST_CODE = 1_000
     }
 
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        
+
         setContentView(R.layout.activity_main)
 
         selectButton = findViewById(R.id.selectImageButton)
@@ -26,6 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         selectButton.setOnClickListener{
             pickImageFromGallery()
+
         }
 
         val resultsButton = findViewById<Button>(R.id.resultsButton)
@@ -57,5 +63,6 @@ class MainActivity : AppCompatActivity() {
         if (requestCode == IMAGE_REQUEST_CODE && resultCode == RESULT_OK) {
             imageView.setImageURI(data?.data)
         }
+
     }
 }
