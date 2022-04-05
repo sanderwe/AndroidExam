@@ -7,7 +7,7 @@
     tools:context=".SavedActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/SelectButton"
         android:layout_width="110dp"
         android:layout_height="100dp"
         android:text="Select / upload / show Image"
@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="0.08" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/savedButton"
         android:layout_width="110dp"
         android:layout_height="100dp"
         android:text="Saved results

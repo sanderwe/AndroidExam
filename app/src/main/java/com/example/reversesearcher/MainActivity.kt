@@ -23,5 +23,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, SavedActivity::class.java)
             startActivity(intent)
         }
+
+        val selectButton = findViewById<Button>(R.id.SelectButton)
+        selectButton.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
