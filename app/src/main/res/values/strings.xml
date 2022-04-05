@@ -4,6 +4,10 @@
     <string name="select_image">Select image</string>
     <string name="saved_results">Saved results</string>
     <string name="select_upload_show_image">Select / upload / show Image</string>
-    <string name="reverse_image_search_results">Reverse image search results</string>
+    <string name="reverse_image_search_results2">Reverse image search results</string>
     <string name="upload_selected_area">Upload selected area</string>
+    <string name="select_upload_show_image2">Select / upload / show Image</string>
+    <string name="reverse_image_search_results">Reverse image search results</string>
+    <string name="saved_results2">Saved results</string>
+    <string name="save">save</string>
 </resources>

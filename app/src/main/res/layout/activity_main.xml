@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.085" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/selectImageButton"
         android:layout_width="161dp"
         android:layout_height="59dp"
         android:layout_marginBottom="35dp"
